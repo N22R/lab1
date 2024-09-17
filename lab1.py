@@ -14,5 +14,5 @@ import math
 x = 5.168
 z = 1.569
 y = 3.022
-ma = (x+1)**2+(2*(y+z))/(x+y-z**2)+13*math.log(5,(x*y+z))
-print(ma)
+result = (x+1)**2+(2*(y+z))/(x+y-z**2)+13*math.log(5,(x*y+z))
+print(result)
